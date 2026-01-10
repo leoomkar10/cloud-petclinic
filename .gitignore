@@ -46,3 +46,30 @@ out/
 _site/
 *.css
 !petclinic.css
+
+
+
+# Maven build output
+target/
+
+# Docker volumes (database data)
+mysql_data/
+spring-petclinic_mysql_data/
+
+# Gradle build output
+.gradle/
+build/
+
+# IDE & OS junk
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
